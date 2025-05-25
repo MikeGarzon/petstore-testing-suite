@@ -15,4 +15,4 @@ Feature: Pet Management in the store
     Given I use a known pet ID
     When I send request to get pet details
     Then I should receive the correct pet information
-    And the pet status should be "BerneseMountainDog"
+    And the pet status should be "available"

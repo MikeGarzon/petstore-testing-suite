@@ -214,4 +214,30 @@ public class PetSteps {
         AssertionReporter.verifyStringEquals("Pet status", petResponse.getStatus(), expectedStatus);
     }
 
+    @When("I update the pet status to {string}")
+    public void iUpdateThePetStatusTo(String newStatus) {
+
+        knowPet.setStatus(newStatus);
+
+        Response response = given()
+                .baseUri("https://petstore.swagger.io/v2")
+                .contentType(ContentType.JSON)
+                .accept(ContentType.JSON)
+                .body(knowPet)
+                .when()
+                .put("/pet");
+
+        petResponse = response.getBody().as(PetResponse.class);
+    }
+
+    @Then("the update should be successful")
+    public void theUpdateShouldBeSuccessful() {
+        then().statusCode(200);
+        AssertionReporter.verifyNumberEquals("Status code", lastResponse().statusCode(), 200);
+    }
+
+    @And("when I retrieve the pet details")
+    public void whenIRetrieveThePetDetails() {
+        iSendRequestToGetPetDetails();
+    }
 }
