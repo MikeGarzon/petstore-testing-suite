@@ -4,52 +4,160 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb73c2ae-4be0-4449-860e-64ce73edd195" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="fb73c2ae-4be0-4449-860e-64ce73edd195" name="Changes" comment="Add SerenityBDD tests for Petstore API operations">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/petstore/features/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/petstore/features/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/petstore/stepDefinition/PetSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/petstore/stepDefinition/PetSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/getPet.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/getPet.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MikeGarzon&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MikeGarzon/petstore-testing-suite.git&quot;,
+    &quot;accountId&quot;: &quot;c9ab3e09-2db0-4ae9-83b6-3d7b3eed31e7&quot;
+  }
+}</component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="MavenRunConfiguration" name="cucumber-starter [clean,verify]" />
+    </enabled-run-configurations>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2xYWST8tJ9CsIYoJHmlYyeTOS7u" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Cucumber Java.Feature: getPet.executor": "Run",
+    "Maven.VisaChallenge [clean,install,-U].executor": "Run",
+    "Maven.VisaChallenge [clean,install].executor": "Run",
+    "Maven.VisaChallenge [clean,verify].executor": "Run",
+    "Maven.VisaChallenge [clean].executor": "Run",
+    "Maven.VisaChallenge [install].executor": "Run",
+    "Maven.VisaChallenge [test].executor": "Run",
+    "Maven.VisaChallenge [verify].executor": "Run",
+    "Maven.cucumber-starter [clean,verify...].executor": "Run",
+    "Maven.cucumber-starter [clean,verify].executor": "Run",
+    "Maven.cucumber-starter [clean].executor": "Run",
+    "Maven.cucumber-starter [verify...].executor": "Run",
+    "Maven.petstore-test-suite [clean,install,-U].executor": "Run",
+    "Maven.petstore-test-suite [clean,verify].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "G:/Documentos/Proyectos/VisaChallenge",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Documentos\Proyectos\VisaChallenge" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Documentos\Proyectos\VisaChallenge\src\test" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn clean install" />
+      <command value="mvn test" />
+      <command value="mvn clean verify" />
+      <command value="mvn verify" />
+      <command value="mvn clean" />
+      <command value="mvn verify serenity:aggregate " />
+      <command value="mvn clean verify serenity:aggregate " />
+      <command value="mvn clean install -U" />
+      <command value="mvn clean verify " />
+    </option>
+  </component>
   <component name="RunManager">
+    <configuration name="Feature: getPet" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/getPet.feature" />
+      <option name="GLUE" value="org.petstore.stepDefinition net.serenitybdd.cucumber.actors" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="VisaChallenge" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: getPet" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Feature: getPet" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -68,8 +176,29 @@
       <option name="presentableId" value="Default" />
       <updated>1748115489007</updated>
       <workItem from="1748115490496" duration="544000" />
-      <workItem from="1748116538732" duration="117000" />
+      <workItem from="1748116538732" duration="12701000" />
+      <workItem from="1748132245816" duration="121000" />
+      <workItem from="1748132749817" duration="218000" />
+      <workItem from="1748132984181" duration="7527000" />
+      <workItem from="1748183615847" duration="11165000" />
     </task>
+    <task id="LOCAL-00001" summary="Initialize Maven project with basic configuration.">
+      <option name="closed" value="true" />
+      <created>1748117069939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748117069939</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add SerenityBDD tests for Petstore API operations">
+      <option name="closed" value="true" />
+      <created>1748184722106</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748184722106</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,5 +214,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialize Maven project with basic configuration." />
+    <MESSAGE value="Add pet management Cucumber tests and supporting classes&#10;&#10;Introduced Cucumber tests for adding and retrieving pets, including feature files, step definitions, and a test runner. Added necessary POJO classes (Category, Tag, PetRequest, PetResponse) to support API interactions. This setup integrates Serenity with RestAssured for testing Petstore API functionality." />
+    <MESSAGE value="Add SerenityBDD tests for Petstore API operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add SerenityBDD tests for Petstore API operations" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

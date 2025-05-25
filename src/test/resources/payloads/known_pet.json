@@ -1,0 +1,26 @@
+{
+  "id": 99,
+  "category": {
+    "id": 0,
+    "name": "Mountain dog 2"
+  },
+  "name": "BerneseMountainDog 2",
+  "photoUrls": [
+    "BerneseMountainDogImage"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "bernese"
+    },
+    {
+      "id": 1,
+      "name": "mountain"
+    },
+    {
+      "id": 2,
+      "name": "dog"
+    }
+  ],
+  "status": "BerneseMountainDog"
+}

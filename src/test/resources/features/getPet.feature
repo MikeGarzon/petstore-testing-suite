@@ -12,7 +12,7 @@ Feature: Pet Management in the store
     And the response should include the correct pet details
 
   Scenario: Retrieve pet by ID
-    Given I have a valid pet ID
+    Given I use a known pet ID
     When I send request to get pet details
-    Then I should receive the pet information
-    And the pet status should be "available"
+    Then I should receive the correct pet information
+    And the pet status should be "BerneseMountainDog"
