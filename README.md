@@ -1,4 +1,54 @@
-# Pet Store API Test Results Report
+# Pet Store API Testing Project
+
+This project contains automated functional and load tests for the Swagger Pet Store API. I developed as part of a technical challenge for Visa.
+
+## Functional Tests
+
+Functional testing was implemented using BDD with Serenity and Cucumber. The goal was to validate the API backend in a real world alike scenario showing my previous experience.
+
+### User Management Tests
+
+Some of the tests I design and implemented verifying user,pet,orders lifecycle operations including:
+
+* Users/pets creation
+* Users/pets deletion
+* User login validation
+* Test invalid order operations
+* Validate error messages and response codes
+
+## Load Tests
+
+I also created a series of JMeter tests simulating traffic to different API endpoints.
+
+
+### Prerequisites
+
+* Java 18
+* Maven
+* JMeter (for load testing)
+
+### Running Functional Tests
+
+```bash
+mvn clean verify
+```
+
+### Running Load Tests
+
+```bash
+jmeter -n -t "load_tests/petstore-pet-GET-load-100x1000.jmx" -l results.jtl
+```
+
+## Test Reports
+
+Serenity BDD generates rich HTML reports after functional tests, available in:
+
+```
+target/site/serenity/index.html
+```
+
+
+# Pet Store API Tested Results Report
 Some issues were identified after running the designed tests that impact the API's reliability and security.
 ## Functional Test Results
 ### Issues Identified
@@ -27,7 +77,7 @@ Some issues were identified after running the designed tests that impact the API
 
 This test was conducted solely for the sake of the challlenge. The Swagger Petstore is public API and I don't want to subject it to excessive load.
 
-## Test: `petstore-pet-GET-load-100x1000`
+### Test: `petstore-pet-GET-load-100x1000`
 
 This test simulates 100 virtual users, each performing 1,000 GET requests to the `/v2/pet/findByStatus` endpoint of the Swagger Petstore API. However, due to environmental constraints and to avoid overloading the public API, only 12,591 samples were executed in this run.
 
