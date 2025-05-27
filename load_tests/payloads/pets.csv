@@ -1,0 +1,3 @@
+{"id": 1001, "name": "Rex", "photoUrls": ["http://img1"], "status": "available"}
+{"id": 1002, "name": "Milo", "photoUrls": ["http://img2"], "status": "pending"}
+{"id": 1003, "name": "Luna", "photoUrls": ["http://img3"], "status": "sold"}
