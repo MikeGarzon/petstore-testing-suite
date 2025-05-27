@@ -1,0 +1,3 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Get Pets Thread Group:Find Pets by Status,12591,7348,24,22958,"3823,32","0,802%",",42570","2080,88","0,06","5005488,4"
+TOTAL,12591,7348,24,22958,"3823,32","0,802%",",42570","2080,88","0,06","5005488,4"
