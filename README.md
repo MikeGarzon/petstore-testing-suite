@@ -16,9 +16,25 @@ Some of the tests I design and implemented verifying user,pet,orders lifecycle o
 * Test invalid order operations
 * Validate error messages and response codes
 
+Reports of the tested features can be found in `petstore-testing-suite/saved_reports`. 
+
+Screenshosts of the porject can be found in `petstore-testing-suite/saved_reports/screenshots`.
+
+The reports look like this: 
+
+![Serenity2](saved_reports/screenshots/store_error_handling.png)
+![Serenity1](saved_reports/screenshots/pet_status_update_failure.png)
+
+
 ## Load Tests
 
 I also created a series of JMeter tests simulating traffic to different API endpoints.
+
+JMeter is the tool I have experience with, so I apologize for not using the technology stack proposed. However, the concepts behind load and stress testing are the same, so I should have no problem ramping up with the actual tool used in the project.
+
+The structure of the project is the following, those include GET endpoints that were stress tested; also POST and PUT were included with CSV-driven payloads to demonstrate JMeter parameterization capabilities.
+
+![JMeter1](saved_reports/screenshots/jmeter-base.png)
 
 
 ### Prerequisites
@@ -36,10 +52,10 @@ mvn clean verify
 ### Running Load Tests
 
 ```bash
-jmeter -n -t "load_tests/petstore-pet-GET-load-100x1000.jmx" -l results.jtl
+jmeter -n -t "load_tests/load_tests.jmx" -l results.jtl
 ```
 
-## Test Reports
+### Test Reports
 
 Serenity BDD generates rich HTML reports after functional tests, available in:
 
@@ -104,13 +120,24 @@ This test simulates 100 virtual users, each performing 1,000 GET requests to the
 
 * The other POST and PUT request tests in the JMeter file were not subjected to heavy load. They were created to illustrate how to use JMeter with payloads sourced from CSV files as I did in previus jobs.
 
-Besides the Summary Report (CSV), JMeter supports a range of visual and structured reports that aid in performance analysis:
+Besides the Summary Report (CSV), some of the JMeter reports that aid in performance analysis are:
 
-* Aggregate Report
 * View Results Tree
+    ![JMeter3](saved_reports/screenshots/post-request-by-csv.png)
 * Graph Results
-* Response Time Graph
-* Summary Report
-* Backend Listener (e.g., InfluxDB with Grafana dashboards)
-* HTML Dashboard Report (generated from `.jtl` results)
+    ![JMeter4](saved_reports/screenshots/graph-results.png)
+* Aggregate Report
+    ![JMeter5](saved_reports/screenshots/bar-graph.png)
 
+### TODO (Personal Notes for future me)
+* Refactor functional tests to fully adopt the Screenplay Pattern.
+
+* Create Jenkins CI/CD pipelines to:
+
+  * Automate test execution
+
+  * Parameterize build configurations
+
+  * Archive and publish test reports
+
+* Implement performance assertions in JMeter to enable lightweight performance smoke tests.
