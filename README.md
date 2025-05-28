@@ -123,10 +123,13 @@ This test simulates 100 virtual users, each performing 1,000 GET requests to the
 Besides the Summary Report (CSV), some of the JMeter reports that aid in performance analysis are:
 
 * View Results Tree
+  
     ![JMeter3](saved_reports/screenshots/post-request-by-csv.png)
 * Graph Results
+  
     ![JMeter4](saved_reports/screenshots/graph-results.png)
 * Aggregate Report
+  
     ![JMeter5](saved_reports/screenshots/bar-graph.png)
 
 ### TODO (Personal Notes for future me)
